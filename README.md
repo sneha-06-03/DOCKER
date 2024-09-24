@@ -52,5 +52,7 @@ By implementing event-driven, asynchronous, and non-blocking models, NGINX uses 
 It also uses an advanced event-based mechanism in many operating systems. Additionally, NGINX uses multiplexing and event notifications and dedicates specific tasks to separate processes. For example, if you have 10 tasks, 10 different processes will handle each of them. NGINX processes highly efficient run loops in a single-thread process called workers.<br/>
 <br/>
 **Workers** accept new requests from a shared listen socket and execute highly efficient run loops inside each worker to process thousands of requests. <br/>
+<br/>
 **Masters** read and validate configurations by creating, binding, and crossing sockets. They also handle starting, terminations, and maintaining the number of configured worker processes. The master node can also reconfigure the worker process with no service interruption.<br/>
+<br/>
 **Proxy caches** are special processes. They have a cache loader and manager. The cache loader checks the disk cache item and populates the engine’s in-memory database with the cache metadata. It prepares the NGINX instances to work with the files already stored on the disk in a specifically allocated structure. The cache manager handles cache expiration and invalidation.
