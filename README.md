@@ -5,7 +5,7 @@
 Containerization is a virtualization technique that packages an application and its dependencies into a standardized unit called a container. Docker is a popular containerization platform that allows developers to build, ship, and run containers. <br/>
 <br/>
 **Docker Hub**:<br/>
-Docker Hub is a container registry built for developers and open source contributors to find, use, and share their container images. With Hub, developers can host public repos that can be used for free, or private repos for teams and enterprises.
+Docker Hub is a container registry built for developers and open source contributors to find, use, and share their container images. With Hub, developers can host public repos that can be used for free, or private repos for teams and enterprises.<br/>
 **Docker image**:<br/>
 Docker image is a file that contains the instructions for running code in a Docker container
 # Docker Commands
