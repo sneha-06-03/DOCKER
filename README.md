@@ -39,8 +39,8 @@ A Docker container is a package that contains all the components required to run
 **Here are some benefits of Docker containers**: <br/>
 <br/>
 **Lightweight**: Containers share the same operating system kernel as the machine they're running on, so they don't need their own operating system. <br/>
-<br/>
+
 **Secure**: Applications are safer when running in containers. <br/>
-<br/>
+
 **Portable**: Containers can be moved to any system that runs Linux or Windows. <br/>
 <br/>
