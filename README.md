@@ -13,6 +13,8 @@ Docker image is a file that contains the instructions for running code in a Dock
 **Dockerfile**:<br/>
 Dockerfile is a text file that contains instructions for building a Docker image.<br/>
 <br/>
+**Orchestration**:<BR/>
+Docker orchestration is a set of tools and practices that help manage Docker containers at scale.<BR/>
 # Docker Commands
 Through introducing the essential docker commands, docker became a powerful software in streamlining the container management process. It helps in ensuring a seamless development and deployment workflows. The following are the some of docker commands that are used commonly:
 <br/>
