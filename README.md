@@ -44,3 +44,13 @@ A Docker container is a package that contains all the components required to run
 
 **Portable**: Containers can be moved to any system that runs Linux or Windows. <br/>
 <br/>
+# NGINX
+NGINX is open-source web server software used for reverse proxy, load balancing, and caching. It provides HTTPS server capabilities and is mainly designed for maximum performance and stability. It also functions as a proxy server for email communications protocols, such as IMAP, POP3, and SMTP. 
+**The NGINX Architecture**
+By implementing event-driven, asynchronous, and non-blocking models, NGINX uses master-slave architecture.<br/>
+<br/>
+It also uses an advanced event-based mechanism in many operating systems. Additionally, NGINX uses multiplexing and event notifications and dedicates specific tasks to separate processes. For example, if you have 10 tasks, 10 different processes will handle each of them. NGINX processes highly efficient run loops in a single-thread process called workers.<br/>
+<br/>
+Workers accept new requests from a shared listen socket and execute highly efficient run loops inside each worker to process thousands of requests. 
+Masters read and validate configurations by creating, binding, and crossing sockets. They also handle starting, terminations, and maintaining the number of configured worker processes. The master node can also reconfigure the worker process with no service interruption.<br/>
+Proxy caches are special processes. They have a cache loader and manager. The cache loader checks the disk cache item and populates the engine’s in-memory database with the cache metadata. It prepares the NGINX instances to work with the files already stored on the disk in a specifically allocated structure. The cache manager handles cache expiration and invalidation.
