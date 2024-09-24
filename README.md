@@ -3,7 +3,7 @@
 # Docker Commands
 Through introducing the essential docker commands, docker became a powerful software in streamlining the container management process. It helps in ensuring a seamless development and deployment workflows. The following are the some of docker commands that are used commonly:
 <br/>
-
+<br/>
 **Docker Run**: It used for launching the containers from images, with specifying the runtime options and commands.<br/>
 <br/>
 **Docker Pull**: It fetches the container images from the container registry like Docker Hub to the local machine.<br/>
