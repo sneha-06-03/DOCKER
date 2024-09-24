@@ -35,3 +35,7 @@ Through introducing the essential docker commands, docker became a powerful soft
 <br/>
 # Container in Docker
 A Docker container is a package that contains all the components required to run an application, including the code, dependencies, and libraries. Docker containers are lightweight and portable, and can run on any system that has a Linux or Windows operating system.
+**Here are some benefits of Docker containers**: <br/>
+**Lightweight**: Containers share the same operating system kernel as the machine they're running on, so they don't need their own operating system. 
+**Secure**: Applications are safer when running in containers. 
+**Portable**: Containers can be moved to any system that runs Linux or Windows. 
