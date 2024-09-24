@@ -8,6 +8,7 @@ Containerization is a virtualization technique that packages an application and 
 Docker Hub is a container registry built for developers and open source contributors to find, use, and share their container images. With Hub, developers can host public repos that can be used for free, or private repos for teams and enterprises.<br/>
 **Docker image**:<br/>
 Docker image is a file that contains the instructions for running code in a Docker container<br/>
+<br/>
 # Docker Commands
 Through introducing the essential docker commands, docker became a powerful software in streamlining the container management process. It helps in ensuring a seamless development and deployment workflows. The following are the some of docker commands that are used commonly:
 <br/>
