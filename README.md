@@ -33,3 +33,5 @@ Through introducing the essential docker commands, docker became a powerful soft
 <br/>
 **Docker Login**: It helps to login in to the docker registry enabling the access to private repositories.<br/>
 <br/>
+# Container in Docker
+A Docker container is a package that contains all the components required to run an application, including the code, dependencies, and libraries. Docker containers are lightweight and portable, and can run on any system that has a Linux or Windows operating system.
