@@ -68,3 +68,7 @@ It also uses an advanced event-based mechanism in many operating systems. Additi
 **Caching**: It can cache content to reduce latency and improve response times.<BR/>
 <BR/>
 **Support for WebSockets**: NGINX supports real-time communication for applications that require persistent connections.<BR/>
+# STEPS TO INSTALL NGNIX
+In this tutorial, we’ll show you how to install NGINX on Linux. Open your Linux machine and run an update using the command below:
+<BR/>
+sudo apt-get update
