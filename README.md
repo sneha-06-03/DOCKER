@@ -56,3 +56,15 @@ It also uses an advanced event-based mechanism in many operating systems. Additi
 **Masters** read and validate configurations by creating, binding, and crossing sockets. They also handle starting, terminations, and maintaining the number of configured worker processes. The master node can also reconfigure the worker process with no service interruption.<br/>
 <br/>
 **Proxy caches** are special processes. They have a cache loader and manager. The cache loader checks the disk cache item and populates the engine’s in-memory database with the cache metadata. It prepares the NGINX instances to work with the files already stored on the disk in a specifically allocated structure. The cache manager handles cache expiration and invalidation.
+**Features of NGNIX**<BR/>
+**Web Server**: It can serve static content (like HTML, CSS, and images) quickly and efficiently.<BR/>
+<BR/>
+**Reverse Proxy**: NGINX can act as an intermediary for requests from clients seeking resources from other servers, distributing the load and improving performance.<BR/>
+<BR/.
+**Load Balancing**: It can distribute incoming traffic across multiple servers to ensure availability and reliability.<BR/>
+<BR/>
+**SSL/TLS Termination**: NGINX can handle SSL/TLS encryption, improving security while offloading the processing from backend servers.<BR/>
+<BR/>
+**Caching**: It can cache content to reduce latency and improve response times.<BR/>
+<BR/>
+**Support for WebSockets**: NGINX supports real-time communication for applications that require persistent connections.<BR/>
