@@ -73,3 +73,5 @@ In this tutorial, we’ll show you how to install NGINX on Linux. Open your Linu
 <BR/>
 
 `` sudo apt update ``
+Next, run this command:
+``sudo apt-get install nginx``
