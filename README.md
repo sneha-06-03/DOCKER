@@ -71,4 +71,4 @@ It also uses an advanced event-based mechanism in many operating systems. Additi
 # STEPS TO INSTALL NGNIX
 In this tutorial, we’ll show you how to install NGINX on Linux. Open your Linux machine and run an update using the command below:
 <BR/>
-'sudo apt update'
+`sudo apt update`
