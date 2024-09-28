@@ -90,37 +90,45 @@ To install Docker on a remote server using PuTTY, you'll first need to ensure yo
 
 **Step 1: Connect to Your Server**
 <br/>
+<br/>
 1.Open PuTTY.<br/>
 2.Enter the hostname or IP address of your server.<br/>
 3.Click "Open" to initiate the connection.<br/>
 4.Log in with your username and password.<br/>
 <br/>
 **Step 2: Update Your Package Index**<br/>
+<br/>
 Before installing Docker, it’s a good idea to update the package index:<br/>
 ``sudo apt update``<br/>
 **Step 3: Install Prerequisites**<br/>
+<br/>
 For Ubuntu, install the required packages:<br/>
 ``sudo apt install apt-transport-https ca-certificates curl software-properties-common``<br/>
 For CentOS, run:<br/>
 ``sudo yum install -y yum-utils``<br/>
 **Step 4: Add Docker’s Official GPG Key**<br/>
+<br/>
 For Ubuntu:<br/>
 ``curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -``<br/>
 For CentOS:<br/>
+<br/>
 ``sudo rpm --import https://download.docker.com/linux/centos/gpg``<br/>
 **Step 5: Set Up the Stable Repository**<br/>
+<br/>
 For Ubuntu:<br/>
 ``sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"``<br/>
 For CentOS:<br/>
 ``sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo``<br/>
 **Step 6: Install Docker**<br/>
+<br/>
 For Ubuntu:<br/>
 ``sudo apt update<br/>
 sudo apt update docker-ce``<br/>
 For CentOS:<br/>
 ``sudo yum install docker-ce``<br/>
 **Step 7: Start Docker**<br/>
+<br/>
 Enable and start the Docker service<br/>
 ``sudo systemctl start docker<br/>
-sudo systemctl enable docker<br/>
+sudo systemctl enable docker``<br/>
 
