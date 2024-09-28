@@ -89,11 +89,13 @@ To check whether your NGINX server is working fine, run the following:<br/>
 To install Docker on a remote server using PuTTY, you'll first need to ensure you have access to a Linux server (like Ubuntu, CentOS, etc.) via SSH. Here's a step-by-step guide:
 
 **Step 1: Connect to Your Server**
-1.Open PuTTY./
-2.Enter the hostname or IP address of your server.
-3.Click "Open" to initiate the connection.
-4.Log in with your username and password.
-Step 2: Update Your Package Index
-Before installing Docker, it’s a good idea to update the package index:
+<br/>
+1.Open PuTTY.<br/>
+2.Enter the hostname or IP address of your server.<br/>
+3.Click "Open" to initiate the connection.<br/>
+4.Log in with your username and password.<br/>
+<br/>
+Step 2: Update Your Package Index<br/>
+Before installing Docker, it’s a good idea to update the package index:<br/>
 
 
